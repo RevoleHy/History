@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Sans+KR&display=swap');
+    table, #notice, #NHSK {
+        font-family: 'M PLUS 1p', 'Noto Sans KR', sans-serif;
+    }
+    .JIKEN {
+        background: #e86b79;
+    }
+    .JIDAI, .JIDAI small, .TENO small {
+        color: white;
+    }
+    .RekishiTable td {
+        padding: 10px;
+        font-weight: bold;
+    }
+    .TENO {
+        background: #353535;
+        color: #f6b65a;
+    }
+    .SEKAN {
+        background: gray;
+        color: black;
+    }
+    .TENO, .SEKAN, .JIDAI {
+        text-align: center;
+        font-size: 20pt;
+    }
+    .Article {
+        font-size: 14pt; 
+        text-align: left;
+        background: #f5f5f5;
+        width: 50%;
+    }
+    #notice a {
+        color: black;
+    }
+    .Year {
+        background: #00b992; 
+        text-align: left;
+        color: white;
+    }
+    small {
+        font-size: 12pt;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        color: #e86b79;
+        transition: 0.5s;
+        text-shadow: 0 0 5px#e86b79;
+    }
+    sub {
+        font-size: 10pt;
+    }
+    /*articles color*/
+    .nhsk, .nhsk a {
+        color: #643d4f;
+    }
+    .sksk, .sksk a {
+        color: #3a3a5f;
+    }
+    #NHSK {
+        background-color: #f5f5f5;
+        color: #643d4f;
+        padding: 5%;
+        font-weight: bold;
+        font-size: 14pt;
+    }
+    .SmallYear {
+        font-size: 20pt;
+    }
