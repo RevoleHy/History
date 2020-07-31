@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Sans+KR&display=swap');
-    table, #notice, #NHSK {
+    table, #notice, #NHSK, header {
         font-family: 'M PLUS 1p', 'Noto Sans KR', sans-serif;
     }
     .JIKEN {
@@ -20,7 +20,7 @@
         background: gray;
         color: black;
     }
-    .TENO, .SEKAN, .JIDAI {
+    .TENO, .SEKAN, .JIDAI, .Year {
         text-align: center;
         font-size: 20pt;
     }
@@ -28,7 +28,7 @@
         font-size: 14pt; 
         text-align: left;
         background: #f5f5f5;
-        width: 50%;
+        width: 35%;
     }
     #notice a {
         color: black;
@@ -68,4 +68,8 @@
     }
     .SmallYear {
         font-size: 20pt;
+    }
+    header {
+        padding: 10px;
+        font-weight: bold;
     }
