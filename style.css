@@ -5,7 +5,10 @@
     .JIKEN {
         background: #e86b79;
     }
-    .JIDAI, .JIDAI small, .TENO small {
+    .JIDAI {
+        width: 10%;
+    }
+    .JIDAI, .JIDAI small, .TENO small, .TAISI small, .SOGA small {
         color: white;
     }
     .RekishiTable td {
@@ -15,20 +18,40 @@
     .TENO {
         background: #353535;
         color: #f6b65a;
+        width: 20%;
+    }
+    .TAISI {
+        background: gray;
+        color: #f6b65a;
+        width: 20%;
     }
     .SEKAN {
         background: gray;
         color: black;
+        width: 20%;
     }
-    .TENO, .SEKAN, .JIDAI, .Year {
+    .SOGA {
+        background: #de7c6b;
+        color: white;
+        width: 20%;
+    }
+    .white {
+        background: gray;
+        color: white;
+        width: 20%;
+    }
+    .TENO, .SEKAN, .JIDAI, .Year, .YearName, .white, .TAISI, .SOGA {
         text-align: center;
         font-size: 20pt;
+    }
+    .SYOKUI {
+        font-size: 14pt;
     }
     .Article {
         font-size: 14pt; 
         text-align: left;
         background: #f5f5f5;
-        width: 35%;
+        width: 30%;
     }
     #notice a {
         color: black;
@@ -37,6 +60,30 @@
         background: #00b992; 
         text-align: left;
         color: white;
+        width: 10%;
+    }
+    .YearName {
+        background: #e86b79; 
+        text-align: center;
+        color: white;
+        width: 10%;
+    }
+    .JIDAIhajime {
+        background: #00b992; 
+        text-align: left;
+        color: white;
+        padding: 10px;
+        box-shadow: 0 0 10px#00b992;
+        border-radius: 5px;
+    }
+    .DAIHEN {
+        background: #e86b79; 
+        text-align: left;
+        color: white;
+        padding: 10px;
+        box-shadow: 0 0 10px#e86b79;
+        border-radius: 5px;
+        font-size: 24pt;
     }
     small {
         font-size: 12pt;
@@ -58,6 +105,9 @@
     }
     .sksk, .sksk a {
         color: #3a3a5f;
+    }
+    .bjks, .bjks a {
+        color: #7c6d56;
     }
     #NHSK {
         background-color: #f5f5f5;
