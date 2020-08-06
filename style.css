@@ -8,7 +8,7 @@
     .JIDAI {
         width: 10%;
     }
-    .JIDAI, .JIDAI small, .TENO small, .TAISI small, .SOGA small {
+    .JIDAI, .JIDAI small, .TENO small, .TAISI small, .SOGA small, .FUJIWARA small {
         color: white;
     }
     .RekishiTable td {
@@ -18,29 +18,31 @@
     .TENO {
         background: #353535;
         color: #f6b65a;
-        width: 20%;
     }
     .TAISI {
         background: gray;
         color: #f6b65a;
-        width: 20%;
     }
     .SEKAN {
         background: gray;
         color: black;
-        width: 20%;
     }
     .SOGA {
         background: #de7c6b;
         color: white;
-        width: 20%;
     }
     .white {
         background: gray;
         color: white;
-        width: 20%;
     }
-    .TENO, .SEKAN, .JIDAI, .Year, .YearName, .white, .TAISI, .SOGA {
+    .FUJIWARA {
+        color: whitesmoke;
+        background-image: url('./monji/Japanese_crest_Sagari_Fuji.svg');
+        background-color: #578099;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .TENO, .SEKAN, .JIDAI, .Year, .YearName, .white, .TAISI, .SOGA, .FUJIWARA {
         text-align: center;
         font-size: 20pt;
     }
