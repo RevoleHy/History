@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Sans+KR&display=swap');
     table, #notice, #NHSK, header {
         font-family: 'M PLUS 1p', 'Noto Sans KR', sans-serif;
+        font-weight: bolder;
     }
     .JIKEN {
         background: #e86b79;
@@ -8,7 +9,7 @@
     .JIDAI {
         width: 10%;
     }
-    .JIDAI, .JIDAI small, .TENO small, .TAISI small, .SOGA small, .FUJIWARA small {
+    .JIDAI, .JIDAI small, .TENO small, .TAISI small, .SOGA small, .FUJIWARA small, .TACHIBANA small {
         color: white;
     }
     .RekishiTable td {
@@ -42,7 +43,14 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    .TENO, .SEKAN, .JIDAI, .Year, .YearName, .white, .TAISI, .SOGA, .FUJIWARA {
+    .TACHIBANA {
+        color: whitesmoke;
+        background-image: url('./monji/Japanese_crest_Tachibana.svg');
+        background-color: #c77b7f;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .TENO, .SEKAN, .JIDAI, .Year, .YearName, .white, .TAISI, .SOGA, .FUJIWARA, .TACHIBANA {
         text-align: center;
         font-size: 20pt;
     }
@@ -77,6 +85,21 @@
         padding: 10px;
         box-shadow: 0 0 10px#00b992;
         border-radius: 5px;
+    }
+    .BASIC {
+        background: #5b92e4; 
+        text-align: left;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .DAIHEN:hover {
+        box-shadow: 0 0 30px#e86b79;
+        transition: 0.5s;
+    }
+    .BASIC:hover {
+        box-shadow: 0 0 10px#5b92e4;
+        transition: 0.5s;
     }
     .DAIHEN {
         background: #e86b79; 
