@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Sans+KR&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap');
+@font-face {
+    src:url("./font/NotoSansKR-Regular.otf");
+    font-family: 'Noto Sans KR';
+}
+@font-face {
+    src:url("./font/MPLUS1p-Regular.ttf");
+    font-family: 'M PLUS 1p';
+}
+
     table, #notice, #NHSK, header, li {
         font-family: 'M PLUS 1p', 'Noto Sans KR', sans-serif;
         font-weight: bolder;
